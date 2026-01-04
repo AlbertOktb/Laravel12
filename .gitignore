@@ -12,7 +12,7 @@
 /.vscode
 /.zed
 /auth.json
-
+/.osp
 
 /public/hot
 /public/storage
