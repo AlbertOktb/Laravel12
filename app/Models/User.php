@@ -30,6 +30,11 @@ class User extends Authenticatable
         return (int) $this->role === self::ROLE_ADMIN;
     }
 
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+
     /**
      * The attributes that are mass assignable.
      *

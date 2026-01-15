@@ -19,9 +19,7 @@
         <aside class="w-1/4 bg-gray-900 min-h-screen ">
             <nav class="text-gray-200 text-sm">
                 <div>
-
                     <a href="{{ route('admin.posts.index') }}" class="block p-4 border-b border-gray-600">Посты</a>
-
                 </div>
                 <div>
 
